@@ -1,3 +1,6 @@
+<script setup>
+import Searchinput from './components/Searchinput.vue'
+</script>
 <template>
   <main>
     <div>
@@ -14,6 +17,9 @@
         })
       }}
       <p>Asia/Jakarta</p>
+    </div>
+    <div>
+      <Searchinput />
     </div>
   </main>
 </template>
